@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Mis contactos</title>
+        <meta charset="utf-8">
+        <meta name="description" content="Esta es mi hoja de vida en HTML Diseñada con etiquetas estructurales (cabecera, navegación, imagen, secciones y pie de página)">
+        <meta name="keyworks" content="HTML, CSS,Javascript, curriculum">
+        <link rel="icon" href="img/icono.jpg" type="image/jpg"sizes="20x20">
+        <link rel="stylesheet" type="text/css" href="css/estilo_fm.css">
+       
+    </head>
+    <body>
+         <header>
+             <figure>
+                    <img src="img/Foto.jfif" 
+                     alt="Foto HV" 
+                    title="Foto Helbert" height="150">
+             </figure>
+                <div id="titulo">
+                    <p>Hoja de vida</p>
+                </div>
+
+                <div id="subtitulo">
+                    <p>Helbert Dubler Morera Hernández</p>
+                </div>
+        </header>
+        <nav>
+            <ul>
+                <li><a id="inicio" href="index.html">Inicio</a></li>
+                <li><a href="misestudios.html">Mis Estudios</a></li>
+                <li><a href="miexperiencia.html">Mi Experiencia</a></li>
+                <li><a id="contacto"; href="fm_contacto.html">Contacto<a></li>
+            </ul>
+        </nav>
+        <hr>
+        <section>
+            <h1>Formulario de contacto</h1> 
+            <article>
+                <div id="article">            
+                    <form id="formulario_contacto" class="contacto">
+                        <div><label>Nombre</label> <input type="nombre"  id="nombre" ></div>
+                        <div><label>Email</label> <input type="email" id="email" ></div>
+                        <div><label>Asunto</label> <input type="asunto" id="asunto" ></div>
+                        <div><label>Mensaje</label> <textarea rows="6" id="mensaje" type="mensaje"></textarea></div>
+                        <div><input type="button" id="submit" value="Enviar Mensaje"></div>
+                    </form>
+                    
+                </div>
+                <script src="js/prueba.js"></script>
+            </article>
+            <br><br>  
+            <article>
+                    <img id="imagen" src="img/Fuera de servicio.png" alt="Fuera de servicio">
+            </article>
+        </section>
+        <footer>   
+            <div id="hr">
+               <hr> Power by Helbert Morera Hernández - ADSO 2023 
+            </div>
+        </footer>
+    </body>
+</html> 

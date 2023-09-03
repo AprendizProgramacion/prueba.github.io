@@ -1,0 +1,85 @@
+body {
+    background: #f3e2a9;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+figure {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    float: left;
+    margin: 0;
+}
+
+#titulo {   
+    width: 800px;
+    height: 100px;
+    background: cyan;
+    float: left;
+}
+
+#subtitulo {
+
+    width: 800px;
+    height: 100px;
+    background: #81DAF5;
+    float: left;
+}
+
+#titulo p {
+    font-size: 50px;
+    margin-top: 20px;
+    margin-left: 60px;
+    font-weight: bold;
+}
+
+#subtitulo p{
+    font-size: 30px;
+    margin-left: 60px;
+    font-weight: bold;
+}
+
+nav {
+    width: 1000px;
+    height: 50px;
+    background-color: rgb(4, 5, 56);
+    float: left;
+}
+
+
+
+nav ul li {
+
+    display: inline-block;
+    margin: 5px;
+}
+
+nav ul li a {
+
+    color: white;
+    font-size: 17px;
+    text-decoration: none;
+    transition: 3s;
+    text-align: center;
+}
+
+nav ul li a:hover {
+
+    font-size: 25px;
+    color: rgb(4, 0, 255);
+}
+
+nav ul li #inicio:hover{
+
+    font-size: 25px;
+    color: yellow;
+}
+nav ul li #contacto:hover {
+
+    font-size: 25px;
+    color: red
+}

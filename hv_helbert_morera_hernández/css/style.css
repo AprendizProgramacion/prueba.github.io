@@ -1,0 +1,300 @@
+body {
+    background: rgb(245, 245, 213); 
+    width: 1000px;
+    margin: 0 auto; 
+}
+
+figure {
+    width: 200px; 
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    float: left;
+    margin: 0;
+}
+
+#titulo {   
+    width: 800px;
+    height: 100px;
+    background: rgb(139, 224, 245);
+    float: left;
+}
+
+#subtitulo {
+
+    width: 800px;
+    height: 100px;
+    background: rgb(184, 181, 181); 
+    float: left;
+}
+
+#titulo p {
+    font-size: 50px;
+    margin-top: 20px;
+    margin-left: 60px;
+    font-weight: bold;
+}
+
+#subtitulo p{
+    font-size: 30px;
+    margin-left: 60px;
+    font-weight: bold;
+}
+
+nav {
+    width: 1000px;
+    height: 60px; 
+    background-color: black;
+    float: left;
+}
+
+nav ul li {
+
+    display: inline-block;
+    margin: 5px;
+}
+
+nav ul li a {
+
+    color: white;
+    font-size: 17px;
+    text-decoration: none;
+    transition: 0.3s;
+    text-align: center;
+}
+
+nav ul li a:hover {
+
+    font-size: 25px;
+    color: rgb(139, 224, 245); 
+}
+
+nav ul li #inicio:hover{
+
+    font-size: 25px;
+    color: rgb(139, 224, 245);
+}
+nav ul li #contacto:hover {
+
+    font-size: 25px;
+    color: red
+}
+section {
+
+    
+    width: 762px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 1.2em;
+    text-align: justify;
+    padding: 10px;
+}
+section, aside {
+
+    display: inline-block;
+    margin: 5px 0px 0px;
+    vertical-align: top;
+    text-align: justify;
+}
+
+h1 {
+
+    text-align: center;
+}
+
+#section1 {
+
+    width: 1000px;
+}
+#article0 {
+
+    width: 1000px;
+    float: left; 
+    background-color: white;  
+}
+
+table td{ 
+
+    text-align: center;
+}
+
+#article1 {
+
+    width: 100%;
+    float: left;
+    background-color: rgb(189, 245, 189);
+}
+
+#article1 h4 {
+
+    text-align: center;
+}
+
+#article2 {
+
+    width: 100%;
+    float: left;
+    background-color: rgb(250, 242, 175);
+}
+
+aside {
+
+    width: 180px;
+    position: relative;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-align: center;
+    background-color: #C7E1E2;
+    box-shadow: 0px 2px 5px #1c1a19;
+    border-radius: 5px;
+    padding: 10px;
+    color: black;
+    font-size: 0.9em;
+    transform: translateZ(0);
+}
+
+aside:before {
+   position: absolute;
+    content: '';
+    left: calc(50% - 20px);
+    top: 0;
+    border-style: solid;
+    border-width: 0 20px 20px 20px;
+    border-color: transparent transparent 
+                  #C7E1E2 transparent;
+    transition-duration: 0.3s;
+}
+  
+aside:hover {
+    transform: translateY(20px);
+}
+  
+aside:hover:before {
+    top: -20px;
+}
+
+aside img {
+
+    width: 40px;
+    height: 40px;
+    display: block;  
+}
+
+
+
+#article3 {
+
+    border: 2px solid black;
+    border-radius: 2px;
+    font-size: 1.2em;
+    text-align: justify;
+    padding: 10px;
+    margin: 20px auto 0 auto;
+
+}
+
+#article3 h4{
+
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+#mi_proyecto{
+    width: 100%;
+    
+}
+section p{
+    padding: 0px 10px ;
+
+}
+   section h4 p{
+    margin: -15px 0px;
+} 
+
+table {
+
+    width: 100%;
+}
+
+table td {
+
+    width: 66%;
+    background-color: rgb(184, 181, 181); 
+   
+}
+
+table td p{
+
+    margin-left: 20px;
+}
+table th {
+
+    width: 33%;
+
+    background-color: rgb(139, 224, 245); 
+}
+
+th img {
+    
+    width: 100%;
+    height: 200px;
+    display: block;
+}
+
+hr {
+    transform: translateZ(0);
+  }
+  
+hr:hover {
+  transform: translateY(-5px);
+  }
+  
+hr:before {
+    position: absolute;
+    content: '';
+    width: 90%;
+    left: 5%;
+    top: 100%;
+    height: 10px;
+    opacity: 0;
+    background: -webkit-radial-gradient(center, 
+      ellipse,  rgba(0, 0, 0, 0.35) 0%, 
+                rgba(0, 0, 0, 0) 80%);
+    transition-duration: 0.3s;
+  }
+  
+  hr:hover:before {
+    opacity: 1;
+   transform: translateY(5px);
+  }
+
+footer hr{
+    border: none;
+    height: 10px; 
+    background-color: #07575B;
+    
+    
+}
+
+#hr {
+
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 0.85em;
+    font-style: italic;
+    
+} 
+
+
+#imagen {
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+

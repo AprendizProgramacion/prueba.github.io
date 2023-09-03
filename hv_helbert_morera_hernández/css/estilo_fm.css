@@ -1,0 +1,251 @@
+body {
+    background: rgb(245, 245, 213); 
+    width: 1000px;
+    margin: 0 auto; 
+}
+
+figure {
+    width: 200px; 
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    float: left;
+    margin: 0;
+}
+
+#titulo {   
+    width: 800px;
+    height: 100px;
+    background: rgb(139, 224, 245);
+    float: left;
+}
+
+#subtitulo {
+
+    width: 800px;
+    height: 100px;
+    background: rgb(184, 181, 181); 
+    float: left;
+}
+
+#titulo p {
+    font-size: 50px;
+    margin-top: 20px;
+    margin-left: 60px;
+    font-weight: bold;
+}
+
+#subtitulo p{
+    font-size: 30px;
+    margin-left: 60px;
+    font-weight: bold;
+}
+
+nav {
+    width: 1000px;
+    height: 60px; 
+    background-color: black;
+    float: left;
+}
+
+
+
+nav ul li {
+
+    display: inline-block;
+    margin: 5px;
+}
+
+nav ul li a {
+
+    color: white;
+    font-size: 17px;
+    text-decoration: none;
+    transition: 0.3s;
+    text-align: center;
+}
+
+nav ul li a:hover {
+
+    font-size: 25px;
+    color: rgb(139, 224, 245); 
+}
+
+nav ul li #inicio:hover{
+
+    font-size: 25px;
+    color: rgb(139, 224, 245);
+}
+nav ul li #contacto:hover {
+
+    font-size: 25px;
+    color: red
+}
+
+section {
+
+    
+    width: 976px;
+    border: 2px solid black; 
+    border-radius: 5px;
+    font-size: 1.2em;
+    text-align: justify;
+    padding: 10px;
+}
+ 
+h1 {
+
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    background-color: rgb(189, 245, 189);
+    
+}
+#formulario_contacto{
+    
+    background-color: #E2ECEE;
+    font-family: sans-serif;
+    font-size: 12px;
+    color: #798e94;
+}
+
+.contacto {
+
+    width: 400px;
+    margin: auto;
+    border: 1px solid #CED5D7;
+    border-radius: 6px;
+    padding: 45px 20px;
+    margin-top: 50px;
+    background-color: white;
+    box-shadow: 0px 5px 10px #B5C1C5, 0 0 0 10px #EEF5F7 inset;
+    text-align: center;
+    
+}
+
+.contacto label {
+    display: block;
+    font-weight: bold;
+    
+    
+}
+
+.contacto div {
+
+    margin-bottom: 15px;
+    
+}
+
+.contacto input  {
+
+    padding: 7px 6px;
+    width: 294px;
+    border: 1px solid #ced5d7;
+    resize: none;
+    box-shadow: 0 0 0 3px #EEF5F7;
+    margin: 5px 0; 
+}
+
+.contacto textarea {
+
+    padding: 7px 6px;
+    width: 294px;
+    border: 1px solid #ced5d7;
+    resize: none;
+    box-shadow: 0 0 0 3px #EEF5F7;
+    margin: 5px 0; 
+}
+
+.contacto input:focus {
+
+    outline:none;
+    box-shadow: 0 0 0 3px #88e9ec;
+}
+
+.contacto textarea:focus {
+
+    outline: none;
+    box-shadow: 0 0 0 3px #88e9ec;
+}
+
+.contacto input [type="submite"] {
+
+    border: 1px solid #CED5D7;
+    box-shadow: 0 0 0 3px #eef5f7;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-weight: bold;
+    text-shadow: 1px 1px 0px white;
+    background: #aaf1f6; 
+    background: -moz-linear-gradient(top, #aaf1f6 0%, #cfe6af 100%); 
+    background: -webkit-linear-gradient(top, #030303 0%, #cfe6af 100%);  
+}
+
+.contacto input:hover {
+
+    background: #edfcff;
+    background: -moz-linear-gradient(top, #edfcff 0%, #cfe6cf 100%);
+    background: -webkit-linear-gradient(top, #edfcff 0%, #cfe6cf 100%);
+
+}
+
+.contacto input:active {
+
+    background: #efe6ef;
+    background: -moz-linear-gradient(top, #edfcff 0%, #cfe6cf 100%);
+    background: -webkit-linear-gradient(top, #cfe6ef 0%, #edfcff 100%);
+
+}
+
+#hr {
+
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 0.85em;
+    font-style: italic;
+    
+} 
+
+#imagen {
+
+    display: block;
+    margin: auto;
+    
+}
+button {
+
+    color: #798e94;
+    padding: 7px 6px;
+    width: 300px;
+    border: 1px solid #ced5d7;
+    resize: none;
+    box-shadow: 0 0 0 3px #EEF5F7;
+    margin: 5px 0;
+    font-size: 12px;
+    
+
+}
+.boton a {
+
+    text-decoration: none;
+    text-align: center;
+    font-size: 12px;
+    color: #798e94;
+}
+#submit {
+
+    color: #798e94;
+    padding: 7px 6px;
+    width: 300px;
+    border: 1px solid #ced5d7;
+    resize: none;
+    box-shadow: 0 0 0 3px #EEF5F7;
+    margin: 5px 0;
+    font-size: 12px;
+    
+}
+
+
+
+
